@@ -1,1 +1,1 @@
-# WordPress-Tips-Tricks
+Error while uploading a media from wp-admin
