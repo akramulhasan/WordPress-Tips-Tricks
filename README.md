@@ -1,4 +1,4 @@
-<h1>Error while uploading a media from wp-admin</h1>
+<h1>Error while uploading a media from wp-admin ?</h1>
 <p>If you face something like this:
 Unable to create directory uploads/2016/11. Is its parent directory writable by the server?
 
