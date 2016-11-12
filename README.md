@@ -19,3 +19,9 @@ just go in your admin, go to Settings/Media and change the upload path to that o
 
 
 <p>Now try again to uplaod this Database.</p>
+
+
+<h1>Captcha Problem in Contact Form 7 ?</h1>
+<p>Sometimes it may happen that your default reCaptcha is not working in Contact Form 7.Then you can simply install this plugin and configure according this plugin.</p>
+
+<li> 1) Plugin Link: https://wordpress.org/plugins/contact-form-7-simple-recaptcha/</li>
