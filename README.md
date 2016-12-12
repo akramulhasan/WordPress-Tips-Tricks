@@ -31,13 +31,13 @@ just go in your admin, go to Settings/Media and change the upload path to that o
 <p>This is basically a syntex error.This errors not have any specific solution.You have to first understand what syntex are causing your problem.Like see this error line: 
 <b>'#1064 - you have an error in your sql syntax check the manual that corresponds to your mysql server version for the right syntex to use near 'type=MyISAM at line 19</b>
 
-From this line first of all we can understand the problem is at line 19,and secondly we can see the syntex issue can be this : type=MyISAM.
+<p>From this line first of all we can understand the problem is at line 19,and secondly we can see the syntex issue can be this : type=MyISAM.</p>
 
-Then you have to identify what version of MySQL you are using and what version of new MySQL where you are now trying to upload this DB.And do some googling to find what syntex have depricated within these version gap.
+<p>Then you have to identify what version of MySQL you are using and what version of new MySQL where you are now trying to upload this DB.And do some googling to find what syntex have depricated within these version gap.</p>
 
-In the case of this error line that I have just showed there 'TYPE' syntex was culprit:
-The older TYPE option was synonymous with ENGINE. TYPE was deprecated in MySQL 4.0 and removed in MySQL 5.5. When upgrading to MySQL 5.5 or later, you must convert existing applications that rely on TYPE to use ENGINE instead.
+<p>In the case of this error line that I have just showed there 'TYPE' syntex was culprit:
+The older TYPE option was synonymous with ENGINE. TYPE was deprecated in MySQL 4.0 and removed in MySQL 5.5. When upgrading to MySQL 5.5 or later, you must convert existing applications that rely on TYPE to use ENGINE instead.</p>
 
-So go to your DB.find that old syntex and replace with new one.You are done !!!
+<p>So go to your DB.find that old syntex and replace with new one.You are done !!!</p>
 </p>
 
