@@ -1,0 +1,6 @@
+// adding custom class in a tag
+function wpfy_add_link_class($classes) {
+  $classes['class'] = "nav-link";
+  return $classes;
+}
+add_filter( 'nav_menu_link_attributes', 'wpfy_add_link_class');
