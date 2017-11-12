@@ -1,0 +1,7 @@
+function wpfy_addclass_li($classes, $item, $args) {
+  if($args->theme_location == 'menu-1') {
+    $classes[] = 'nav-item';
+  }
+  return $classes;
+}
+add_filter('nav_menu_css_class','wpfy_addclass_li',1,3);
