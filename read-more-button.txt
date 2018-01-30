@@ -1,0 +1,6 @@
+function wpfy_excerpt_more($more) {
+    global $post;
+    return ' <a class="read-more" href="'. get_permalink($post->ID) . '">Read More »</a>'; //Change as per your need
+}
+ 
+add_filter( 'excerpt_more', 'wpfy_excerpt_more' );
